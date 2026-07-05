@@ -248,6 +248,110 @@ PORT=5000
 
 ---
 
+# 🧪 Suggested Testing Workflow
+
+To experience the complete functionality of TeamFlow, use the following demo accounts. Each account has a specific role with different permissions and responsibilities.
+
+---
+
+## 👑 1. Admin
+
+**Email:** `admin@teamflow.com`  
+**Password:** `Admin@123`
+
+### Responsibilities
+
+- Create, update, and delete projects
+- Manage users and assign roles
+- Create and manage tasks
+- Create and edit Root Cause Analysis (RCA) reports
+- Monitor project progress
+- View notifications and activity logs
+- Access all modules and system features
+
+---
+
+## 👨‍💼 2. Manager
+
+**Email:** `manager@teamflow.com`  
+**Password:** `Manager@123`
+
+### Responsibilities
+
+- Manage assigned projects
+- Create and assign tasks to developers
+- Monitor task progress
+- Create and update RCA reports
+- View project dashboards
+- Receive project-related notifications
+
+---
+
+## 👨‍💻 3. Developer
+
+**Email:** `developer@teamflow.com`  
+**Password:** `Developer@123`
+
+### Responsibilities
+
+- View assigned tasks
+- Update task status
+- Add comments to tasks and RCA reports
+- View assigned projects
+- Receive task assignment notifications
+- Collaborate with managers and reviewers
+
+---
+
+## 📝 4. Reviewer
+
+**Email:** `reviewer@teamflow.com`  
+**Password:** `Reviewer@123`
+
+### Responsibilities
+
+- View submitted RCA reports
+- Review Root Cause Analysis investigations
+- Approve RCA reports
+- Reject RCA reports
+- Provide mandatory review comments
+- Track review history
+- Receive RCA review notifications
+
+---
+
+## 🔄 Recommended Demo Flow
+
+To explore the complete application workflow:
+
+1. **Login as Admin**
+   - Create a new project.
+   - Add users to the project.
+   - Create and assign tasks.
+   - Create an RCA report and submit it for review.
+
+2. **Login as Manager**
+   - View the project.
+   - Monitor assigned tasks.
+   - Update project progress and task assignments.
+
+3. **Login as Developer**
+   - View assigned tasks.
+   - Update task status.
+   - Add comments to tasks or RCA reports.
+   - Check notifications for new assignments.
+
+4. **Login as Reviewer**
+   - Open the submitted RCA.
+   - Approve or reject the RCA.
+   - Provide a mandatory review comment.
+   - Verify that the RCA status and notifications are updated accordingly.
+
+This workflow demonstrates the complete lifecycle of project management, task execution, incident investigation, and review within TeamFlow.
+
+---
+
+
 # 🔌 REST APIs
 
 ## Authentication
